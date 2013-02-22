@@ -1,0 +1,22 @@
+{
+    "name": "rhapsody-project/wiki-bundle",
+    "type": "symfony-bundle",
+    "description": "Rhapsody Project WikiBundle for Symfony",
+    "keywords": ["wiki"],
+    "homepage": "https://github.com/rhapsody-project/wiki-bundle",
+	"version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        { "name": "Sean Quinn", "email": "sean.quinn@extesla.com" },
+        { "name": "Rhapsody Project", "homepage": "https://github.com/rhapsody-project/wiki-bundle/contributors" }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+		"rhapsody-project/commons": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Rhapsody\\WikiBundle": "" }
+    },
+    "target-dir": "Rhapsody/WikiBundle",
+    "minimum-stability": "dev"
+}
